@@ -13,6 +13,12 @@ class Car : public Vehicle
             doors = 0;
         }
         
+        void displayInfo()
+        {
+            Vehicle::displayInfo();
+            cout << "\tDoors: " << doors << endl;
+        }
+
         void setDoors(int);
 
         int getDoors()
