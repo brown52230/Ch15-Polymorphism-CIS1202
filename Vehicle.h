@@ -22,8 +22,8 @@ class Vehicle
         void displayInfo()
         {
             cout << "Vehicle Information:" << endl
-                 << "\tManufacturer: " << manufacturer << endl
-                 << "\tYear Built: " << year << endl;
+                 << "\tManufacturer: " << getManufacturer() << endl
+                 << "\tYear Built: " << getYear() << endl;
         }
 
         void setManufacturer(string);

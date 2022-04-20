@@ -16,7 +16,7 @@ class Car : public Vehicle
         void displayInfo()
         {
             Vehicle::displayInfo();
-            cout << "\tDoors: " << doors << endl;
+            cout << "\tDoors: " << getDoors() << endl;
         }
 
         void setDoors(int);

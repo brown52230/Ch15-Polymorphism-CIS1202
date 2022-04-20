@@ -17,7 +17,7 @@ class Truck : public Vehicle
         void displayInfo()
         {
             Vehicle::displayInfo();
-            cout << "\tCapacity: " << capacity << endl;
+            cout << "\tCapacity: " << getCapacity() << endl;
         }
 
         void setCapacity(int);
